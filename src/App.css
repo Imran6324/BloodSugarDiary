@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Nunito+Sans:wght@200&family=PT+Sans+Narrow&display=swap');
+
+.App {
+  text-align: center;
+  max-width: 2160px;
+  height: -webkit-fill-available;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;     
+  scroll-behavior: smooth;          /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(106, 116, 110, 0.186);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(148, 232, 198);    /* color of the scroll thumb */
+  border-radius: 20px;      
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}

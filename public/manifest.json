@@ -1,0 +1,37 @@
+{
+  "short_name": "BS Diary",
+  "name": "Blood Sugar Diary App",
+  "icons": [
+    {
+      "src": "/favicon/favicon-64x64.png",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/favicon/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/favicon/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/favicon/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "id":".",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "description":"Blood Sugar Diary App",
+  "background_color": "#ffffff"
+}
